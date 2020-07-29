@@ -1,4 +1,4 @@
-# portfolio-m1
-module1-portfolio
+# portfolio-m2
+module2-portfolio
 
 
