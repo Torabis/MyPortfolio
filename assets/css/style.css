@@ -49,7 +49,7 @@ header nav ul {
     border-right: #012F5F solid;
     padding-right: 20px;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 }
 .left-row h2 {
     margin-right: 20px;
@@ -85,9 +85,36 @@ header nav ul {
     line-height: 1.3;
     display: grid;
     grid-template-columns: 100px 900px;
+    text-decoration: none;
 }
+.links {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-items: center ;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.links div {
+    border-bottom: 2px solid #1C6EA4;
+    padding: 10px;
+    }
 .intro p {
     text-align: left;
-    margin: 2%;
+    margin: 2%
+}
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
 }
 
