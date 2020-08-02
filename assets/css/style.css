@@ -8,7 +8,7 @@ header {
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 20px 35px;
-  background-color: #607e82;
+  background-color: #5d7a99;
 }
 header a {
   text-decoration: none;
@@ -42,8 +42,20 @@ header nav ul {
     background-position: center;
     display: flex;
     justify-content: flex-end;
+    align-content: flex-end;
     flex-wrap: wrap;   
+    padding: 20px;
 }
+.hero h2 {
+    background-color: #5d7a99;
+    padding: 20px;
+    color: #012f5f;
+}
+.hero h2 :hover  {
+    text-decoration: underline;
+    background-color: red;
+    }
+
 .left-row {
     display: flex;
     border-right: #012F5F solid;
@@ -121,15 +133,17 @@ a:active {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 200px 200px 200px;
-    grid-column-gap: 10px
-    grid-row-gap: 10px
-    justify-items: stretch
-    align-items: stretch
+    grid-gap: 10px;
+    padding: 20px;
 }
+img:hover {
+    transform: (1.5);
+    opacity: 1;
+  }
 img {
     width: 100%;
     height: 100%;
-    /* object-fit: cover; */
+    
 }
 #pic-1 {
     grid-column-start: 1;
