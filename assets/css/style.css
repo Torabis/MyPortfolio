@@ -166,6 +166,21 @@ img {
   transform: scale(1.2);
   transition: 1s ease;
 }
+a {
+  position: relative;
+  display: inline-block;
+}
+
+a span {
+  position: absolute;
+  bottom: 15%;
+  left: 50%;
+  margin-bottom: -1em;
+  margin-left: -40%;
+  width: 100%;
+  height: 2em;
+  color: #EDEEF6;
+}
 /* 
 @media all and ( min-width: 40em ){
     header {

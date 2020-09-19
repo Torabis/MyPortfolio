@@ -1,4 +1,4 @@
-# portfolio-m2
+# MyPortfolio
 module2-portfolio
 Advance CSS
 
